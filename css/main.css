@@ -58,6 +58,15 @@
   grid-area: dorthe;
 }
 
+#boardgame {
+  grid-area: boardgame;
+}
+
+#spacegame {
+  grid-area: spacegame;
+}
+
+
 #kiwistrit {
   grid-area: kiwistrit;
 }
@@ -80,7 +89,7 @@
 
 #home-grid {
   display: grid;
-  grid-template-areas: "showreel" "kiwistrit" "lydlandskap" "ooroom" "drummachine" "dorthe" "nerdsweat" ;
+  grid-template-areas: "showreel" "kiwistrit" "boardgame" "spacegame" "lydlandskap" "ooroom" "drummachine" "dorthe" "nerdsweat" ;
 }
 
 #img-gallery-grid {
@@ -377,6 +386,13 @@ img {
 }
 
 .iframe-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.picture-container {
   position: relative;
   overflow: hidden;
   width: 100%;

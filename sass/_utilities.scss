@@ -1,0 +1,37 @@
+// Used to center items
+.container {
+  max-width: $website-width;
+  // padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden;
+}
+
+.btn {
+  cursor: pointer;
+  margin-bottom: 2rem;
+  height: 66px;
+  width: 200px;
+  font-size: 1.2rem;
+  background: $primary-color;
+  border: 1px dashed $highlight-color;
+  font-weight: bold;
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  background: $highlight-color;
+  color: $primary-color;
+}
+
+.btn:focus,
+.btn:visited,
+.btn:active {
+  border: 1px dashed $highlight-color;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

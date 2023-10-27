@@ -1,0 +1,73 @@
+@media print {
+  $print-body-fontsize: 10px;
+
+  #img-gallery {
+    display: none;
+  }
+  #header-home {
+    display: none;
+  }
+
+  #main-footer {
+    display: none;
+  }
+
+  body {
+    font-size: $print-body-fontsize;
+  }
+
+  hr {
+    display: none;
+  }
+  @page {
+    // removes-date and title of page
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  #cv {
+    #soren-tagline,
+    .profile-content-description,
+    #phonenumber,
+    .profile-content,
+    .profile-arw,
+    .education-year,
+    .education-description {
+      font-size: $print-body-fontsize;
+    }
+  }
+
+  #cv-profile-and-contact-info {
+    margin-bottom: 0.5rem;
+  }
+
+  // Colors
+  #cv-grid {
+    margin-top: 1rem;
+
+    .cv-entries {
+      margin-bottom: 0.3rem !important;
+      li p {
+        margin-bottom: 0;
+      }
+      .cv-year {
+        color: #000;
+      }
+      .cv-title {
+        color: #000;
+
+        a {
+          font-size: $print-body-fontsize;
+          border: none;
+        }
+      }
+      .cv-work {
+        color: #000;
+      }
+    }
+  }
+
+  .btn {
+    display: none;
+  }
+}

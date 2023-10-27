@@ -1,0 +1,45 @@
+// PROJECTS GRID
+#showreel {
+  grid-area: showreel;
+}
+
+#lrrh {
+  grid-area: lrrh;
+}
+
+#kiwistrit {
+  grid-area: kiwistrit;
+}
+
+#ooroom {
+  grid-area: ooroom;
+}
+#lydlandskap{
+  grid-area: lydlandskap;
+}
+#dorthe {
+  grid-area: dorthe;
+}
+
+#drummachine {
+  grid-area: drummachine;
+}
+#nerdsweat {
+  grid-area: nerdsweat;
+}
+#dxm1 {
+  grid-area: dxm1;
+}
+
+
+// PROJECTS GRID
+#home-grid {
+  display: grid;
+  grid-template-areas:
+    "showreel"
+    "kiwistrit"
+    "lydlandskap"
+    "ooroom"
+    "dorthe"
+    "nerdsweat";
+}

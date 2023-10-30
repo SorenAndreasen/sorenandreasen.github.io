@@ -498,7 +498,8 @@ img {
     display: block;
   }
   #cv .cv-profile-img {
-    display: none;
+    display: block;
+    max-width: 50%;
   }
   .cv-entries li p {
     margin-bottom: 1rem;

@@ -66,6 +66,9 @@
   grid-area: spacegame;
 }
 
+#dinogame {
+  grid-area: dinogame;
+}
 
 #kiwistrit {
   grid-area: kiwistrit;
@@ -89,7 +92,7 @@
 
 #home-grid {
   display: grid;
-  grid-template-areas: "showreel" "kiwistrit" "boardgame" "spacegame" "lydlandskap" "ooroom" "drummachine" "dorthe" "nerdsweat" ;
+  grid-template-areas: "showreel" "kiwistrit" "boardgame" "spacegame" "dinogame" "lydlandskap" "ooroom" "drummachine" "dorthe" "nerdsweat" ;
 }
 
 #img-gallery-grid {

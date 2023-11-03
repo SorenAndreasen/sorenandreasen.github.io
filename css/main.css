@@ -66,6 +66,10 @@
   grid-area: spacegame;
 }
 
+#triggers {
+  grid-area: triggers;
+}
+
 #dinogame {
   grid-area: dinogame;
 }
@@ -92,7 +96,7 @@
 
 #home-grid {
   display: grid;
-  grid-template-areas: "showreel" "kiwistrit" "boardgame" "spacegame" "dinogame" "lydlandskap" "ooroom" "drummachine" "dorthe" "nerdsweat" ;
+  grid-template-areas: "showreel" "kiwistrit" "boardgame" "spacegame" "dinogame" "lydlandskap" "triggers" "ooroom" "drummachine" "dorthe" "nerdsweat" ;
 }
 
 #img-gallery-grid {

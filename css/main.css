@@ -74,8 +74,15 @@
   grid-area: dinogame;
 }
 
+#mousecrane {
+  grid-area: mousecrane;
+}
+
 #kiwistrit {
   grid-area: kiwistrit;
+}
+#realvampires {
+  grid-area: realvampires;
 }
 
 #lydlandskap {
@@ -96,7 +103,7 @@
 
 #home-grid {
   display: grid;
-  grid-template-areas: "showreel" "kiwistrit" "boardgame" "spacegame" "dinogame" "lydlandskap" "triggers" "ooroom" "drummachine" "dorthe" "nerdsweat" ;
+  grid-template-areas: "showreel" "mousecrane" "realvampires" "kiwistrit" "boardgame" "spacegame" "dinogame" "lydlandskap" "triggers" "ooroom" "drummachine" "dorthe" "nerdsweat" ;
 }
 
 #img-gallery-grid {
@@ -104,52 +111,8 @@
   grid-template-areas: "a a a" "b c d" "e f g" "h i j" "k l m";
 }
 
-#img-gallery-grid #img-speakers-on-line {
-  grid-area: speakers-on-line;
-}
-
-#img-gallery-grid #img-aarhus-teater {
-  grid-area: aarhus-teater;
-}
-
-#img-gallery-grid #img-klo-in-brazil {
-  grid-area: klo-in-brazil;
-}
-
-#img-gallery-grid #img-dxm01 {
-  grid-area: dxm01;
-}
-
-#img-gallery-grid #img-herve-studio {
-  grid-area: herve-studio;
-}
-
-#img-gallery-grid #img-illutron {
-  grid-area: illutron;
-}
-
 #img-gallery-grid #img-5e {
   grid-area: 5e;
-}
-
-#img-gallery-grid #img-skovgaard {
-  grid-area: skovgaard;
-}
-
-#img-gallery-grid #img-ableton-loop {
-  grid-area: ableton-loop;
-}
-
-#img-gallery-grid #img-max-msp {
-  grid-area: max-msp;
-}
-
-#img-gallery-grid #img-testing-microphones {
-  grid-area: testing-microphones;
-}
-
-#img-gallery-grid #img-concert-overgaden {
-  grid-area: concert-overgaden;
 }
 
 #img-gallery-grid #img-helix {
